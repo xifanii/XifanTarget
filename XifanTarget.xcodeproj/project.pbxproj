@@ -14,6 +14,26 @@
 		A9C2A9381E7AF8EF00A214CD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9C2A9361E7AF8EF00A214CD /* Main.storyboard */; };
 		A9C2A93A1E7AF8EF00A214CD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A9C2A9391E7AF8EF00A214CD /* Assets.xcassets */; };
 		A9C2A93D1E7AF8EF00A214CD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9C2A93B1E7AF8EF00A214CD /* LaunchScreen.storyboard */; };
+		A9C2A9A01E7B04EF00A214CD /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A9C2A96C1E7B04EF00A214CD /* BaseViewController.m */; };
+		A9C2A9A11E7B04EF00A214CD /* DBUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = A9C2A96F1E7B04EF00A214CD /* DBUtil.m */; };
+		A9C2A9A21E7B04EF00A214CD /* NSNull+OVNatural.m in Sources */ = {isa = PBXBuildFile; fileRef = A9C2A9731E7B04EF00A214CD /* NSNull+OVNatural.m */; };
+		A9C2A9A31E7B04EF00A214CD /* UIButton+CustomData.m in Sources */ = {isa = PBXBuildFile; fileRef = A9C2A9751E7B04EF00A214CD /* UIButton+CustomData.m */; };
+		A9C2A9A41E7B04EF00A214CD /* UILabel+CustomData.m in Sources */ = {isa = PBXBuildFile; fileRef = A9C2A9771E7B04EF00A214CD /* UILabel+CustomData.m */; };
+		A9C2A9A51E7B04EF00A214CD /* UINavigationBar+Awesome.m in Sources */ = {isa = PBXBuildFile; fileRef = A9C2A9791E7B04EF00A214CD /* UINavigationBar+Awesome.m */; };
+		A9C2A9A61E7B04EF00A214CD /* UINavigationItem+CustomBackButton.m in Sources */ = {isa = PBXBuildFile; fileRef = A9C2A97B1E7B04EF00A214CD /* UINavigationItem+CustomBackButton.m */; };
+		A9C2A9A71E7B04EF00A214CD /* UITabBar+Badge.m in Sources */ = {isa = PBXBuildFile; fileRef = A9C2A97D1E7B04EF00A214CD /* UITabBar+Badge.m */; };
+		A9C2A9A81E7B04EF00A214CD /* UITapGestureRecognizer+CustomData.m in Sources */ = {isa = PBXBuildFile; fileRef = A9C2A97F1E7B04EF00A214CD /* UITapGestureRecognizer+CustomData.m */; };
+		A9C2A9A91E7B04EF00A214CD /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = A9C2A9811E7B04EF00A214CD /* UIView+Extension.m */; };
+		A9C2A9AA1E7B04EF00A214CD /* UIViewController+BackButtonHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = A9C2A9831E7B04EF00A214CD /* UIViewController+BackButtonHandler.m */; };
+		A9C2A9AB1E7B04EF00A214CD /* UIViewController+CustomBackButton.m in Sources */ = {isa = PBXBuildFile; fileRef = A9C2A9851E7B04EF00A214CD /* UIViewController+CustomBackButton.m */; };
+		A9C2A9AC1E7B04EF00A214CD /* UIWebView+JavaScriptAlert.m in Sources */ = {isa = PBXBuildFile; fileRef = A9C2A9871E7B04EF00A214CD /* UIWebView+JavaScriptAlert.m */; };
+		A9C2A9AD1E7B04EF00A214CD /* FileOperateUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = A9C2A98B1E7B04EF00A214CD /* FileOperateUtil.m */; };
+		A9C2A9AE1E7B04EF00A214CD /* BaseRequestInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = A9C2A98E1E7B04EF00A214CD /* BaseRequestInfo.m */; };
+		A9C2A9AF1E7B04EF00A214CD /* BaseNetworkUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = A9C2A9911E7B04EF00A214CD /* BaseNetworkUtil.m */; };
+		A9C2A9B01E7B04EF00A214CD /* ServerUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = A9C2A9931E7B04EF00A214CD /* ServerUtil.m */; };
+		A9C2A9B11E7B04EF00A214CD /* ToolsUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = A9C2A9981E7B04EF00A214CD /* ToolsUtil.m */; };
+		A9C2A9B21E7B04EF00A214CD /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = A9C2A99C1E7B04EF00A214CD /* Reachability.m */; };
+		A9C2A9B31E7B04EF00A214CD /* BaseCustomView.m in Sources */ = {isa = PBXBuildFile; fileRef = A9C2A99F1E7B04EF00A214CD /* BaseCustomView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +49,50 @@
 		A9C2A9391E7AF8EF00A214CD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A9C2A93C1E7AF8EF00A214CD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A9C2A93E1E7AF8EF00A214CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A9C2A9661E7B04EF00A214CD /* APIConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APIConfig.h; sourceTree = "<group>"; };
+		A9C2A9671E7B04EF00A214CD /* CommonMacro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommonMacro.h; sourceTree = "<group>"; };
+		A9C2A9681E7B04EF00A214CD /* Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
+		A9C2A9691E7B04EF00A214CD /* UmengConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UmengConstants.h; sourceTree = "<group>"; };
+		A9C2A96B1E7B04EF00A214CD /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		A9C2A96C1E7B04EF00A214CD /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+		A9C2A96E1E7B04EF00A214CD /* DBUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DBUtil.h; sourceTree = "<group>"; };
+		A9C2A96F1E7B04EF00A214CD /* DBUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DBUtil.m; sourceTree = "<group>"; };
+		A9C2A9721E7B04EF00A214CD /* NSNull+OVNatural.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSNull+OVNatural.h"; sourceTree = "<group>"; };
+		A9C2A9731E7B04EF00A214CD /* NSNull+OVNatural.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSNull+OVNatural.m"; sourceTree = "<group>"; };
+		A9C2A9741E7B04EF00A214CD /* UIButton+CustomData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+CustomData.h"; sourceTree = "<group>"; };
+		A9C2A9751E7B04EF00A214CD /* UIButton+CustomData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+CustomData.m"; sourceTree = "<group>"; };
+		A9C2A9761E7B04EF00A214CD /* UILabel+CustomData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+CustomData.h"; sourceTree = "<group>"; };
+		A9C2A9771E7B04EF00A214CD /* UILabel+CustomData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+CustomData.m"; sourceTree = "<group>"; };
+		A9C2A9781E7B04EF00A214CD /* UINavigationBar+Awesome.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationBar+Awesome.h"; sourceTree = "<group>"; };
+		A9C2A9791E7B04EF00A214CD /* UINavigationBar+Awesome.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationBar+Awesome.m"; sourceTree = "<group>"; };
+		A9C2A97A1E7B04EF00A214CD /* UINavigationItem+CustomBackButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationItem+CustomBackButton.h"; sourceTree = "<group>"; };
+		A9C2A97B1E7B04EF00A214CD /* UINavigationItem+CustomBackButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationItem+CustomBackButton.m"; sourceTree = "<group>"; };
+		A9C2A97C1E7B04EF00A214CD /* UITabBar+Badge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITabBar+Badge.h"; sourceTree = "<group>"; };
+		A9C2A97D1E7B04EF00A214CD /* UITabBar+Badge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITabBar+Badge.m"; sourceTree = "<group>"; };
+		A9C2A97E1E7B04EF00A214CD /* UITapGestureRecognizer+CustomData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITapGestureRecognizer+CustomData.h"; sourceTree = "<group>"; };
+		A9C2A97F1E7B04EF00A214CD /* UITapGestureRecognizer+CustomData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITapGestureRecognizer+CustomData.m"; sourceTree = "<group>"; };
+		A9C2A9801E7B04EF00A214CD /* UIView+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Extension.h"; sourceTree = "<group>"; };
+		A9C2A9811E7B04EF00A214CD /* UIView+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extension.m"; sourceTree = "<group>"; };
+		A9C2A9821E7B04EF00A214CD /* UIViewController+BackButtonHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+BackButtonHandler.h"; sourceTree = "<group>"; };
+		A9C2A9831E7B04EF00A214CD /* UIViewController+BackButtonHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+BackButtonHandler.m"; sourceTree = "<group>"; };
+		A9C2A9841E7B04EF00A214CD /* UIViewController+CustomBackButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+CustomBackButton.h"; sourceTree = "<group>"; };
+		A9C2A9851E7B04EF00A214CD /* UIViewController+CustomBackButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+CustomBackButton.m"; sourceTree = "<group>"; };
+		A9C2A9861E7B04EF00A214CD /* UIWebView+JavaScriptAlert.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIWebView+JavaScriptAlert.h"; sourceTree = "<group>"; };
+		A9C2A9871E7B04EF00A214CD /* UIWebView+JavaScriptAlert.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIWebView+JavaScriptAlert.m"; sourceTree = "<group>"; };
+		A9C2A98A1E7B04EF00A214CD /* FileOperateUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FileOperateUtil.h; sourceTree = "<group>"; };
+		A9C2A98B1E7B04EF00A214CD /* FileOperateUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FileOperateUtil.m; sourceTree = "<group>"; };
+		A9C2A98D1E7B04EF00A214CD /* BaseRequestInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseRequestInfo.h; sourceTree = "<group>"; };
+		A9C2A98E1E7B04EF00A214CD /* BaseRequestInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseRequestInfo.m; sourceTree = "<group>"; };
+		A9C2A9901E7B04EF00A214CD /* BaseNetworkUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseNetworkUtil.h; sourceTree = "<group>"; };
+		A9C2A9911E7B04EF00A214CD /* BaseNetworkUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseNetworkUtil.m; sourceTree = "<group>"; };
+		A9C2A9921E7B04EF00A214CD /* ServerUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ServerUtil.h; sourceTree = "<group>"; };
+		A9C2A9931E7B04EF00A214CD /* ServerUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ServerUtil.m; sourceTree = "<group>"; };
+		A9C2A9971E7B04EF00A214CD /* ToolsUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ToolsUtil.h; sourceTree = "<group>"; };
+		A9C2A9981E7B04EF00A214CD /* ToolsUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ToolsUtil.m; sourceTree = "<group>"; };
+		A9C2A99B1E7B04EF00A214CD /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		A9C2A99C1E7B04EF00A214CD /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		A9C2A99E1E7B04EF00A214CD /* BaseCustomView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseCustomView.h; sourceTree = "<group>"; };
+		A9C2A99F1E7B04EF00A214CD /* BaseCustomView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseCustomView.m; sourceTree = "<group>"; };
 		EAE9898FB71A11C7C9EDC298 /* libPods-XifanTarget.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-XifanTarget.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -73,6 +137,17 @@
 		A9C2A92C1E7AF8EF00A214CD /* XifanTarget */ = {
 			isa = PBXGroup;
 			children = (
+				A9C2A9651E7B04EF00A214CD /* Config */,
+				A9C2A96A1E7B04EF00A214CD /* Controller */,
+				A9C2A96D1E7B04EF00A214CD /* Database */,
+				A9C2A9701E7B04EF00A214CD /* Ext */,
+				A9C2A9891E7B04EF00A214CD /* FileManager */,
+				A9C2A98C1E7B04EF00A214CD /* Model */,
+				A9C2A98F1E7B04EF00A214CD /* Network */,
+				A9C2A9941E7B04EF00A214CD /* Resources */,
+				A9C2A9961E7B04EF00A214CD /* Util */,
+				A9C2A9991E7B04EF00A214CD /* Vendor */,
+				A9C2A99D1E7B04EF00A214CD /* View */,
 				A9C2A9301E7AF8EF00A214CD /* AppDelegate.h */,
 				A9C2A9311E7AF8EF00A214CD /* AppDelegate.m */,
 				A9C2A9331E7AF8EF00A214CD /* ViewController.h */,
@@ -92,6 +167,159 @@
 				A9C2A92E1E7AF8EF00A214CD /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A9C2A9651E7B04EF00A214CD /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				A9C2A9661E7B04EF00A214CD /* APIConfig.h */,
+				A9C2A9671E7B04EF00A214CD /* CommonMacro.h */,
+				A9C2A9681E7B04EF00A214CD /* Constants.h */,
+				A9C2A9691E7B04EF00A214CD /* UmengConstants.h */,
+			);
+			path = Config;
+			sourceTree = "<group>";
+		};
+		A9C2A96A1E7B04EF00A214CD /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				A9C2A96B1E7B04EF00A214CD /* BaseViewController.h */,
+				A9C2A96C1E7B04EF00A214CD /* BaseViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		A9C2A96D1E7B04EF00A214CD /* Database */ = {
+			isa = PBXGroup;
+			children = (
+				A9C2A96E1E7B04EF00A214CD /* DBUtil.h */,
+				A9C2A96F1E7B04EF00A214CD /* DBUtil.m */,
+			);
+			path = Database;
+			sourceTree = "<group>";
+		};
+		A9C2A9701E7B04EF00A214CD /* Ext */ = {
+			isa = PBXGroup;
+			children = (
+				A9C2A9711E7B04EF00A214CD /* Category */,
+				A9C2A9881E7B04EF00A214CD /* Extend */,
+			);
+			path = Ext;
+			sourceTree = "<group>";
+		};
+		A9C2A9711E7B04EF00A214CD /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				A9C2A9721E7B04EF00A214CD /* NSNull+OVNatural.h */,
+				A9C2A9731E7B04EF00A214CD /* NSNull+OVNatural.m */,
+				A9C2A9741E7B04EF00A214CD /* UIButton+CustomData.h */,
+				A9C2A9751E7B04EF00A214CD /* UIButton+CustomData.m */,
+				A9C2A9761E7B04EF00A214CD /* UILabel+CustomData.h */,
+				A9C2A9771E7B04EF00A214CD /* UILabel+CustomData.m */,
+				A9C2A9781E7B04EF00A214CD /* UINavigationBar+Awesome.h */,
+				A9C2A9791E7B04EF00A214CD /* UINavigationBar+Awesome.m */,
+				A9C2A97A1E7B04EF00A214CD /* UINavigationItem+CustomBackButton.h */,
+				A9C2A97B1E7B04EF00A214CD /* UINavigationItem+CustomBackButton.m */,
+				A9C2A97C1E7B04EF00A214CD /* UITabBar+Badge.h */,
+				A9C2A97D1E7B04EF00A214CD /* UITabBar+Badge.m */,
+				A9C2A97E1E7B04EF00A214CD /* UITapGestureRecognizer+CustomData.h */,
+				A9C2A97F1E7B04EF00A214CD /* UITapGestureRecognizer+CustomData.m */,
+				A9C2A9801E7B04EF00A214CD /* UIView+Extension.h */,
+				A9C2A9811E7B04EF00A214CD /* UIView+Extension.m */,
+				A9C2A9821E7B04EF00A214CD /* UIViewController+BackButtonHandler.h */,
+				A9C2A9831E7B04EF00A214CD /* UIViewController+BackButtonHandler.m */,
+				A9C2A9841E7B04EF00A214CD /* UIViewController+CustomBackButton.h */,
+				A9C2A9851E7B04EF00A214CD /* UIViewController+CustomBackButton.m */,
+				A9C2A9861E7B04EF00A214CD /* UIWebView+JavaScriptAlert.h */,
+				A9C2A9871E7B04EF00A214CD /* UIWebView+JavaScriptAlert.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		A9C2A9881E7B04EF00A214CD /* Extend */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extend;
+			sourceTree = "<group>";
+		};
+		A9C2A9891E7B04EF00A214CD /* FileManager */ = {
+			isa = PBXGroup;
+			children = (
+				A9C2A98A1E7B04EF00A214CD /* FileOperateUtil.h */,
+				A9C2A98B1E7B04EF00A214CD /* FileOperateUtil.m */,
+			);
+			path = FileManager;
+			sourceTree = "<group>";
+		};
+		A9C2A98C1E7B04EF00A214CD /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A9C2A98D1E7B04EF00A214CD /* BaseRequestInfo.h */,
+				A9C2A98E1E7B04EF00A214CD /* BaseRequestInfo.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		A9C2A98F1E7B04EF00A214CD /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				A9C2A9901E7B04EF00A214CD /* BaseNetworkUtil.h */,
+				A9C2A9911E7B04EF00A214CD /* BaseNetworkUtil.m */,
+				A9C2A9921E7B04EF00A214CD /* ServerUtil.h */,
+				A9C2A9931E7B04EF00A214CD /* ServerUtil.m */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		A9C2A9941E7B04EF00A214CD /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				A9C2A9951E7B04EF00A214CD /* Images */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		A9C2A9951E7B04EF00A214CD /* Images */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		A9C2A9961E7B04EF00A214CD /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				A9C2A9971E7B04EF00A214CD /* ToolsUtil.h */,
+				A9C2A9981E7B04EF00A214CD /* ToolsUtil.m */,
+			);
+			path = Util;
+			sourceTree = "<group>";
+		};
+		A9C2A9991E7B04EF00A214CD /* Vendor */ = {
+			isa = PBXGroup;
+			children = (
+				A9C2A99A1E7B04EF00A214CD /* Reachability */,
+			);
+			path = Vendor;
+			sourceTree = "<group>";
+		};
+		A9C2A99A1E7B04EF00A214CD /* Reachability */ = {
+			isa = PBXGroup;
+			children = (
+				A9C2A99B1E7B04EF00A214CD /* Reachability.h */,
+				A9C2A99C1E7B04EF00A214CD /* Reachability.m */,
+			);
+			path = Reachability;
+			sourceTree = "<group>";
+		};
+		A9C2A99D1E7B04EF00A214CD /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A9C2A99E1E7B04EF00A214CD /* BaseCustomView.h */,
+				A9C2A99F1E7B04EF00A214CD /* BaseCustomView.m */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 		CF445A3C16BC5B159B8FFF72 /* Pods */ = {
@@ -225,8 +453,28 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A9C2A9AA1E7B04EF00A214CD /* UIViewController+BackButtonHandler.m in Sources */,
+				A9C2A9AD1E7B04EF00A214CD /* FileOperateUtil.m in Sources */,
+				A9C2A9A11E7B04EF00A214CD /* DBUtil.m in Sources */,
 				A9C2A9351E7AF8EF00A214CD /* ViewController.m in Sources */,
+				A9C2A9B31E7B04EF00A214CD /* BaseCustomView.m in Sources */,
+				A9C2A9A91E7B04EF00A214CD /* UIView+Extension.m in Sources */,
+				A9C2A9A01E7B04EF00A214CD /* BaseViewController.m in Sources */,
+				A9C2A9A31E7B04EF00A214CD /* UIButton+CustomData.m in Sources */,
+				A9C2A9A71E7B04EF00A214CD /* UITabBar+Badge.m in Sources */,
+				A9C2A9AC1E7B04EF00A214CD /* UIWebView+JavaScriptAlert.m in Sources */,
+				A9C2A9A61E7B04EF00A214CD /* UINavigationItem+CustomBackButton.m in Sources */,
+				A9C2A9AB1E7B04EF00A214CD /* UIViewController+CustomBackButton.m in Sources */,
+				A9C2A9AF1E7B04EF00A214CD /* BaseNetworkUtil.m in Sources */,
+				A9C2A9B01E7B04EF00A214CD /* ServerUtil.m in Sources */,
+				A9C2A9A51E7B04EF00A214CD /* UINavigationBar+Awesome.m in Sources */,
+				A9C2A9B21E7B04EF00A214CD /* Reachability.m in Sources */,
 				A9C2A9321E7AF8EF00A214CD /* AppDelegate.m in Sources */,
+				A9C2A9B11E7B04EF00A214CD /* ToolsUtil.m in Sources */,
+				A9C2A9A81E7B04EF00A214CD /* UITapGestureRecognizer+CustomData.m in Sources */,
+				A9C2A9AE1E7B04EF00A214CD /* BaseRequestInfo.m in Sources */,
+				A9C2A9A41E7B04EF00A214CD /* UILabel+CustomData.m in Sources */,
+				A9C2A9A21E7B04EF00A214CD /* NSNull+OVNatural.m in Sources */,
 				A9C2A92F1E7AF8EF00A214CD /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -386,6 +634,7 @@
 				A9C2A9431E7AF8EF00A214CD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
