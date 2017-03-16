@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5A6E6944CC5D61C42C1BC122 /* libPods-XifanTarget.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EAE9898FB71A11C7C9EDC298 /* libPods-XifanTarget.a */; };
 		A9C2A92F1E7AF8EF00A214CD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A9C2A92E1E7AF8EF00A214CD /* main.m */; };
 		A9C2A9321E7AF8EF00A214CD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A9C2A9311E7AF8EF00A214CD /* AppDelegate.m */; };
 		A9C2A9351E7AF8EF00A214CD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A9C2A9341E7AF8EF00A214CD /* ViewController.m */; };
@@ -16,6 +17,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5931CCB378DD1FF486C9841B /* Pods-XifanTarget.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XifanTarget.release.xcconfig"; path = "Pods/Target Support Files/Pods-XifanTarget/Pods-XifanTarget.release.xcconfig"; sourceTree = "<group>"; };
+		7171D38BFDC87C073F14594A /* Pods-XifanTarget.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XifanTarget.debug.xcconfig"; path = "Pods/Target Support Files/Pods-XifanTarget/Pods-XifanTarget.debug.xcconfig"; sourceTree = "<group>"; };
 		A9C2A92A1E7AF8EF00A214CD /* XifanTarget.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XifanTarget.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A9C2A92E1E7AF8EF00A214CD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		A9C2A9301E7AF8EF00A214CD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -26,6 +29,7 @@
 		A9C2A9391E7AF8EF00A214CD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A9C2A93C1E7AF8EF00A214CD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A9C2A93E1E7AF8EF00A214CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EAE9898FB71A11C7C9EDC298 /* libPods-XifanTarget.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-XifanTarget.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +37,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5A6E6944CC5D61C42C1BC122 /* libPods-XifanTarget.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5A16E53761ECE94BBD8019AE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EAE9898FB71A11C7C9EDC298 /* libPods-XifanTarget.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		A9C2A9211E7AF8EF00A214CD = {
 			isa = PBXGroup;
 			children = (
 				A9C2A92C1E7AF8EF00A214CD /* XifanTarget */,
 				A9C2A92B1E7AF8EF00A214CD /* Products */,
+				CF445A3C16BC5B159B8FFF72 /* Pods */,
+				5A16E53761ECE94BBD8019AE /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -79,6 +94,15 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		CF445A3C16BC5B159B8FFF72 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7171D38BFDC87C073F14594A /* Pods-XifanTarget.debug.xcconfig */,
+				5931CCB378DD1FF486C9841B /* Pods-XifanTarget.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -86,9 +110,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A9C2A9411E7AF8EF00A214CD /* Build configuration list for PBXNativeTarget "XifanTarget" */;
 			buildPhases = (
+				902B6F6DB97A3B333639F16E /* [CP] Check Pods Manifest.lock */,
 				A9C2A9261E7AF8EF00A214CD /* Sources */,
 				A9C2A9271E7AF8EF00A214CD /* Frameworks */,
 				A9C2A9281E7AF8EF00A214CD /* Resources */,
+				B191861CE31EE2B4E629E996 /* [CP] Embed Pods Frameworks */,
+				624C0718538B9E1E65942D4C /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -144,6 +171,54 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		624C0718538B9E1E65942D4C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-XifanTarget/Pods-XifanTarget-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		902B6F6DB97A3B333639F16E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		B191861CE31EE2B4E629E996 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-XifanTarget/Pods-XifanTarget-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		A9C2A9261E7AF8EF00A214CD /* Sources */ = {
@@ -270,6 +345,7 @@
 		};
 		A9C2A9421E7AF8EF00A214CD /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7171D38BFDC87C073F14594A /* Pods-XifanTarget.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = XifanTarget/Info.plist;
@@ -281,6 +357,7 @@
 		};
 		A9C2A9431E7AF8EF00A214CD /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5931CCB378DD1FF486C9841B /* Pods-XifanTarget.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = XifanTarget/Info.plist;
